@@ -1,0 +1,13 @@
+{
+  "id" : "https://leo-obfalls.github.io/Biblia-Ectypa/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in leo-obfalls/Biblia-Ectypa project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://leo-obfalls.github.io/Biblia-Ectypa/manifests/manifest.json",
+    "label" : "IIIF Workshop Practice"
+  } ]
+}
