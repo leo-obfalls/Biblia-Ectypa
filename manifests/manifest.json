@@ -1,0 +1,101 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://leo-obfalls.github.io/Biblia-Ectypa/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "IIIF Workshop Practice",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://42b8872e-14fe-43d0-bcfd-ff982030da5c",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://c04ccd6a-83b0-4b2c-a246-644550a80cff",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 513,
+      "width" : 513,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://82922637-c4f9-41d1-80fd-2c98c4a91c3b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/gen1_20221214/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/gen1_20221214",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 513,
+          "width" : 513
+        },
+        "on" : "http://c04ccd6a-83b0-4b2c-a246-644550a80cff"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c77625b6-f995-473c-9ee3-82ff043168ab",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 513,
+      "width" : 513,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ec165dac-617c-46c3-9328-b844538b3d4f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/gen2_20221214/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/gen2_20221214",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 513,
+          "width" : 513
+        },
+        "on" : "http://c77625b6-f995-473c-9ee3-82ff043168ab"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://e83cd154-41ff-456d-8f53-8e1227b402fe",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 513,
+      "width" : 513,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://79bfcfd2-a94a-424a-8915-54ffdb35f5ce",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/gen2_20221214/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/gen2_20221214",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 513,
+          "width" : 513
+        },
+        "on" : "http://e83cd154-41ff-456d-8f53-8e1227b402fe"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
